@@ -14,12 +14,12 @@ declare function local:transform($nodes as node()*) {
             case element (tei:teiHeader) return 
                 <head>
                     {local:transform($node/node())}
-                    <link rel="stylesheet" href="./CSS/SeverusLetters.css"/>
+                    <link rel="stylesheet" href="../CSS/SeverusLetters.css"/>
                     <meta charset="UTF-8"/>
                     <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
                 </head>
             case element (tei:fileDesc) return <title>{local:transform($node/tei:titleStmt/tei:title[1]/node())}</title>
-            case element (tei:text) return <body>{local:transform($node/tei:body/node())}</body>
+            case element (tei:standOff) return <body>{local:transform($node/node())}</body>
             case element (tei:listPerson) return <div><h1>Persons</h1>{local:transform($node/node())}</div>
             case element (tei:listPlace) return <div><h1>Places</h1>{local:transform($node/node())}</div>
             case element (tei:person) return <div><h2 class="namedEntity"><a id="{$node/@xml:id}">{local:transform($node/tei:persName/node())}</a></h2>{local:transform($node/node())}</div>

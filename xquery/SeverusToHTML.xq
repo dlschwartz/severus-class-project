@@ -14,7 +14,7 @@ declare function local:transform($nodes as node()*) {
             case element (tei:teiHeader) return 
                 <head>
                     {local:transform($node/node())}
-                    <link rel="stylesheet" href="./CSS/SeverusLetters.css"/>
+                    <link rel="stylesheet" href="../CSS/SeverusLetters.css"/>
                     <meta charset="UTF-8"/>
                     <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
                 </head>
