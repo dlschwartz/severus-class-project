@@ -32,7 +32,8 @@ p {
 }
 
 ul.nav {
-    margin:0;
+    margin-left: 15%;
+	margin-right: 18%;
     padding:0;
     list-style:none;
     height:36px; line-height:36px;
