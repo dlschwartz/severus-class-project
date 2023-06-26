@@ -30,71 +30,69 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <text>
-      <body>
-         <listPerson>
-            <person xml:id="person51">
-               <persName>Severus of Antioch</persName>
-               <gender>Male</gender>
-               <death when="0538-02-08">8 February 538</death>
-               <occupation>Patriarch of Antioch</occupation>
-            </person>
-            <person xml:id="person680">
-               <persName>Peter the Iberian</persName>
-               <gender>Male</gender>
-               <death when="0491">491</death>
-               <occupation>Bishop of Maiuma</occupation>
-            </person>
-            <person xml:id="person2245">
-               <persName>Jesus of Nazareth</persName>
-               <gender>Male</gender>
-            </person>
-            <person xml:id="person2400">
-               <persName>John</persName>
-               <gender>Male</gender>
-               <floruit>First 1/4 of the 6th century</floruit>
-               <occupation>Slave</occupation>
-            </person>
-            <person xml:id="person2401">
-               <persName>Timothy</persName>
-               <gender>Male</gender>
-               <floruit>Mid-5th century</floruit>
-               <occupation>Priest</occupation>
-               <occupation>Monk</occupation>
-            </person>
-            <person xml:id="person2402">
-               <persName>Eustathios</persName>
-               <gender>Male</gender>
-               <floruit>First 1/4 of the 6th century</floruit>
-               <occupation>Priest</occupation>
-            </person>
-            <person xml:id="person2403">
-               <persName>Genesios</persName>
-               <gender>Male</gender>
-               <floruit>First 1/4 of the 6th century</floruit>
-            </person>
-            <person xml:id="person2540">
-               <persName>Theodore</persName>
-               <gender>Male</gender>
-               <floruit>First 1/4 of the 6th century</floruit>
-               <occupation>Priest</occupation>
-               <occupation>Archimandrite</occupation>
-            </person>
-         </listPerson>
-         <listPlace>
-            <place xml:id="place2674" type="region">
-               <placeName>Iberia</placeName>
-               <desc>A region in the southern Caucasus</desc>
-            </place>
-            <place xml:id="place2653" type="monastery">
-               <placeName>The Monastery of Majuma</placeName>
-               <desc>A monastery in the area of Majuma</desc>
-            </place>
-            <place xml:id="place2626" type="church">
-               <placeName>Anthedon</placeName>
-               <desc>The church in the settlement of Anthedon</desc>
-            </place>
-         </listPlace>
-      </body>
-   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="person51">
+            <persName>Severus of Antioch</persName>
+            <gender>Male</gender>
+            <death when="0538-02-08">8 February 538</death>
+            <occupation>Patriarch of Antioch</occupation>
+         </person>
+         <person xml:id="person680">
+            <persName>Peter the Iberian</persName>
+            <gender>Male</gender>
+            <death when="0491">491</death>
+            <occupation>Bishop of Maiuma</occupation>
+         </person>
+         <person xml:id="person2245">
+            <persName>Jesus of Nazareth</persName>
+            <gender>Male</gender>
+         </person>
+         <person xml:id="person2400">
+            <persName>John</persName>
+            <gender>Male</gender>
+            <floruit>First 1/4 of the 6th century</floruit>
+            <occupation>Slave</occupation>
+         </person>
+         <person xml:id="person2401">
+            <persName>Timothy</persName>
+            <gender>Male</gender>
+            <floruit>Mid-5th century</floruit>
+            <occupation>Priest</occupation>
+            <occupation>Monk</occupation>
+         </person>
+         <person xml:id="person2402">
+            <persName>Eustathios</persName>
+            <gender>Male</gender>
+            <floruit>First 1/4 of the 6th century</floruit>
+            <occupation>Priest</occupation>
+         </person>
+         <person xml:id="person2403">
+            <persName>Genesios</persName>
+            <gender>Male</gender>
+            <floruit>First 1/4 of the 6th century</floruit>
+         </person>
+         <person xml:id="person2540">
+            <persName>Theodore</persName>
+            <gender>Male</gender>
+            <floruit>First 1/4 of the 6th century</floruit>
+            <occupation>Priest</occupation>
+            <occupation>Archimandrite</occupation>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="place2674" type="region">
+            <placeName>Iberia</placeName>
+            <desc>A region in the southern Caucasus</desc>
+         </place>
+         <place xml:id="place2653" type="monastery">
+            <placeName>The Monastery of Majuma</placeName>
+            <desc>A monastery in the area of Majuma</desc>
+         </place>
+         <place xml:id="place2626" type="church">
+            <placeName>Anthedon</placeName>
+            <desc>The church in the settlement of Anthedon</desc>
+         </place>
+      </listPlace>
+   </standOff>
 </TEI>
